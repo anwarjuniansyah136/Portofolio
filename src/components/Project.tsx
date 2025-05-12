@@ -15,32 +15,53 @@ interface ScrollRevealProps {
 const Project: React.FC = () => {
   const projectData: ProjectData[] = [
     {
-      image: "https://i.pinimg.com/736x/c2/63/c1/c263c1c33a98e82e8b4fa635d6e2c40a.jpg",
-      title: "Sepokat Store",
+      image: "html.png",
+      title: "Otakudesu",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consequuntur impedit ad perferendis sunt omnis sint quaerat ratione, architecto debitis asperiores.",
+        "This website is a special platform for anime fans, which provides various anime titles complete with detailed information such as synopsis, genre, number of episodes, rating, and broadcast status. Users can easily search for their favorite anime through the search feature or browse by category such as genre, broadcast season, or popularity. In addition, users can also add anime to their watch list or favorites, making it easier to track anime that is being watched or that you want to watch. With an attractive interface and intuitive navigation, this website is designed to provide the best experience for anime lovers.",
       technologies: ["HTML", "CSS", "Javascript"],
     },
     {
-      image: "https://i.pinimg.com/736x/bc/e1/b7/bce1b79083c69cb8e41c9df541ae9ccd.jpg",
-      title: "Personal Portfolio",
+      image: "restelectronik.jpeg",
+      title: "Rest API",
       description:
-        "A modern and elegant portfolio website built using React.js, showcasing personal projects, skills, and experiences with interactive animations and a dark theme.",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"],
+        "This RESTful API is designed to support e-commerce systems that focus on selling electronic products. This API provides various endpoints that allow users to perform CRUD (Create, Read, Update, Delete) operations on product data, categories, users, and purchase transactions. The main features of this API include user authentication (login and registration), product catalog management, product search, shopping cart management, and order processing. Each request and response uses JSON format, with a consistent HTTP status code standard for clear communication between client and server. This API is built following the modular and scalable REST principles, so it can be used as a backend for mobile applications or frontend websites. Complete documentation is also provided using Swagger or Postman to facilitate integration by other developers.",
+      technologies: ["Springboot", "Swagger", "MySql"],
     },
     {
-      image: "https://i.pinimg.com/736x/a6/73/46/a673469e0027ee76595d29c53af94a45.jpg",
-      title: "Attendance System",
+      image: "vaguewalk.jpeg",
+      title: "VagueWalk",
       description:
-        "A face detection-based attendance system that ensures secure and automated attendance tracking for organizations.",
-      technologies: ["Kotlin", "Spring Boot", "Machine Learning"],
+        "This Android shopping app is designed to provide a convenient, fast and efficient shopping experience right from your mobile device. Users can browse the available products by category or use the search feature to find a specific item. Each product can be viewed in detail, including images, prices and descriptions. The shopping cart feature allows users to add items of interest, manage the purchase quantity and proceed to checkout when ready to buy. The app also supports user authentication, order history and shipping status notifications. With a responsive interface and intuitive navigation, this app is the ideal solution for mobile e-shopping needs.",
+      technologies: ["Kotlin", "Spring Boot", "Rest API", "MySql"],
     },
     {
-      image: "https://i.pinimg.com/736x/47/de/3f/47de3f5ff63739d904b2721995a50ebe.jpg",
-      title: "ReelVerse",
+      image: "tiktok.jpeg",
+      title: "Tiktok",
+      description:
+        "This application is a short video sharing platform inspired by the concept of TikTok, where users can create, upload, and watch short videos in real-time. With an intuitive interface and an infinite vertical scroll, users can easily find relevant and entertaining content based on the recommendation algorithm. This application is equipped with essential features such as camera effects, visual filters, background music, like buttons, comments, and sharing features. Users can also follow other accounts, manage personal profiles, and view their video interaction statistics. The main focus of this application is to provide a creative space for anyone to express themselves through short videos easily and quickly right from their mobile phone.",
+      technologies: ["Flutter", "Springboot", "Rest API", "MySql", "Postgree"],
+    },
+    {
+      image: "filmiverse.jpeg",
+      title: "Filmivers",
       description:
         "A comprehensive movie website where users can browse, search, and watch trailers or films, complete with advanced filtering options and an interactive UI.",
-      technologies: ["React", "Tailwind CSS", "Node JS"],
+      technologies: ["React", "Express JS", "Rest API", "MySql", "Tailwind CSS"],
+    },
+    {
+      image: "thymeleafe.jpeg",
+      title: "ShopMagic",
+      description:
+        "This website is an e-commerce platform designed to make it easier for users to shop online. Users can search for the items they need through the search feature or browse the various products available. Each product can be easily added to a shopping cart, allowing users to collect several items before making a transaction. After selecting the desired product, users simply open the cart page to review and complete the purchase process. With an intuitive and responsive interface, this website offers a fast, practical and efficient shopping experience.",
+      technologies: ["HTML", "CSS", "Bootstrap", "Springboot", "MySql"],
+    },
+    {
+      image: "portofolio.png",
+      title: "Portofolio",
+      description:
+      "This site aims to provide a clear overview of my skills, as well as present the projects I have worked on in a responsive and easy to navigate interface.",
+      technologies: ["React", "Tailwind CSS"],
     },
   ];
 
