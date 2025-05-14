@@ -57,18 +57,6 @@ const Navbar = () => {
               <li>Contact</li>
             </a>
           </ul>
-
-          <ul className="flex flex-wrap gap-5"> 
-
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-              <BsLinkedin />
-            </li>
-
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100">
-              <BsGithub />
-            </li>
-
-          </ul>
         </div>
       )}
     </nav>

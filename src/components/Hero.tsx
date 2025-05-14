@@ -10,7 +10,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img 
-            src="anwar.jpeg" 
+            src="anwar.png" 
             alt="Anwar Juniansyah" 
             className="w-[300px] cursor-pointer rounded-full shadow-1 shadow-indigo-900 transition-all duration-300 hover:translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px] bg" 
             />
