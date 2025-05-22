@@ -63,6 +63,13 @@ const Project: React.FC = () => {
       "This site aims to provide a clear overview of my skills, as well as present the projects I have worked on in a responsive and easy to navigate interface.",
       technologies: ["React", "Tailwind CSS"],
     },
+    {
+      image: "c.jpeg",
+      title: "WARRMART",
+      description:
+      "This project is a market place project that is used by users and cashiers who have their own features, for cashiers including login, add items, delete items, update items and others, while for users including login, register, top up shopping and others.",
+      technologies: ["C", "Notepad"],
+    }
   ];
 
   const ScrollReveal: React.FC<ScrollRevealProps> = ({ children }) => {
