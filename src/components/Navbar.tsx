@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { BiX, BiMenu } from "react-icons/bi";
 
 const Navbar = () => {
